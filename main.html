@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Landing Page</title>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-blue-500 py-4">
+      <nav class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-white font-bold text-lg">
+          <img
+            src="https://avatars.githubusercontent.com/u/15048157?v=4"
+            class="logo_img h-8 w-8 rounded-full inline-block"
+          />
+        </a>
+
+        <!-- Add the dropdown component here -->
+        <div class="relative">
+          <button
+            class="text-white text-sm ml-4 hover:text-gray-200 focus:outline-none focus:text-gray-200"
+          >
+            Menu
+          </button>
+          <ul
+            class="absolute right-0 mt-2 py-2 w-32 bg-white rounded-md shadow-lg z-10 hidden"
+          >
+            <li>
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mx-auto py-10">
+      <h1 class="text-5xl font-bold mb-6 shadow-2xl">
+        Welcome to my Landing Page!
+      </h1>
+      <p class="text-lg leading-7 mb-8">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis
+        dapibus tellus, in vestibulum dolor. Sed ac tellus ut velit efficitur
+        volutpat non non lorem. In iaculis, urna vel maximus bibendum, libero
+        magna sodales nisi, id vehicula ex magna eu mi.
+      </p>
+      <br />
+      <a
+        href="#"
+        class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg font-bold"
+        >Learn More</a
+      >
+    </main>
+
+    <footer class="bg-gray-200 py-4">
+      <p class="text-center text-gray-600">
+        © 2023 My Company, Inc. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

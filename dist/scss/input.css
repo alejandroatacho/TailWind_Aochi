@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: blue;
+}
+
+@layer components {
+  .btn-primary:hover {
+    background-color: blue-700;
+  }
+}
+.ui_view {
+  @apply bg-blue-100;
+}
+
+.ui_view:hover {
+  @apply bg-green-200;
+}
+
+main {
+  background-color: aquamarine;
+}
+
+.logo_img {
+  width: 50px !important;
+  height: auto;
+}
+
+/*Test*//*# sourceMappingURL=input.css.map */
